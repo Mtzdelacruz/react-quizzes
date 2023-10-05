@@ -1,0 +1,17 @@
+.badge {
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 24px; 
+}
+
+.sucess {
+    background-color: lightgreen;
+}
+
+.warning {
+    background-color: goldenrod;
+}
+
+.error {
+    background-color: crimson;
+}
