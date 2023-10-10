@@ -10,7 +10,8 @@ import nocheEstrellada from "./nocheEstrellada.jpg"
 function App() {
   return (
     <div className="App">
-      <Header title= "React Beginner's Quiz"/>
+      <Header title= "React Beginner's Quiz"/> 
+      
 
       
     <div className="card-container">
