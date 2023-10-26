@@ -9,7 +9,7 @@ function AddTask({onAddClick}) {
      e.preventDefault();
     onAddClick(addTaskIpt);
     setAddTaskIpt("");
-  };
+  }; 
   return (
     <form onSubmit={handleOnAddClick}>
       <div className="add-task">

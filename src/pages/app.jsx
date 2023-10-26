@@ -11,7 +11,7 @@ function App() {
     if (!isTaskNameInTask && taskName !== '' ) {
       setTasks([...tasks, taskName.toLowerCase()]);
     }
-  };
+  }; 
   const deleteTask = (tasktoDelete) => {
     const filteredTasksList = tasks.filter((task) => task !== tasktoDelete);
     setTasks(filteredTasksList);
